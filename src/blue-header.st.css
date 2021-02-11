@@ -1,0 +1,9 @@
+:import {
+  -st-from: "./header.st.css";
+  -st-default: Header;
+}
+
+.root {
+  -st-extends: Header;
+  background-color: blue;
+}
